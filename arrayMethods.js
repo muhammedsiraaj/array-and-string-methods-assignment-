@@ -5,7 +5,6 @@ const arr1 = [1,2,3,4,5]
 const arr2 = [6,7,8,9,10]
 
 const concatExample1 = arr1.concat(arr2)
-
 console.log(concatExample1);
 
 //example 2
@@ -14,7 +13,6 @@ const arr4 = [6,7,8,9,10]
 const arr5 = [11,12,13,14,15]
 
 const concatExample2 = arr3.concat(arr4,arr5)
-
 console.log(concatExample2);
 
 ///////////////////////////////////////////////////////////
@@ -26,7 +24,6 @@ const arr6 = [1,2,3,4,5,6,7,8,9,10]
 const arr7 = arr6.every((arr6)=>{
     return arr6>5
 })
-
 console.log(arr7);
 
 //example 2
@@ -34,7 +31,6 @@ const arr8 = [1,2,3,4,5,6,7,8,9,10]
 const arr9 = arr8.every((arr8)=>{
     return arr8>0
 })
-
 console.log(arr9);
 
 ///////////////////////////////////////////////////////////
@@ -44,13 +40,11 @@ console.log(arr9);
 //example 1
 const arr10 = [1,2,3]
 const arr11 = arr10.fill(4)
-
 console.log(arr11);
 
 //example 2
 const arr12 = ['siraj','robin','zayan']
 const arr13 = arr12.fill('Entri Learner')
-
 console.log(arr13);
 
 ////////////////////////////////////////////////////////
@@ -62,7 +56,6 @@ const arr14 = [5,8,12,15,20]
 const arr15 = arr14.find((arr14)=>{
     return arr14>10
 })
-
 console.log(arr15);
 
 //example 2
@@ -70,7 +63,6 @@ const arr16 = [10,20,25,30,35]
 const arr17 =arr16.find((arr16)=>{
     return arr16>30
 })
-
 console.log(arr17);
 
 ///////////////////////////////////////////////////////
@@ -82,7 +74,6 @@ const arr18 = [5,8,12,15,20]
 const arr19 = arr18.findIndex((arr18)=>{
     return arr18>10
 })
-
 console.log(arr19);
 
 //example 2
@@ -90,7 +81,6 @@ const arr20 = [10,20,25,30,35]
 const arr21 =arr20.findIndex((arr20)=>{
     return arr20>30
 })
-
 console.log(arr21);
 
 ////////////////////////////////////////////////////
@@ -100,13 +90,11 @@ console.log(arr21);
 //example 1
 const arr22 = [1,[2,3],[4,[5,6]]];
 const arr23 = arr22.flat();
-
 console.log(arr23);
 
 //example 2
 const arr24 = [1,[2,3],[4,[5,6]]]
 const arr25 = arr24.flat(Infinity)
-
 console.log(arr25);
 
 /////////////////////////////////////////////////
@@ -116,7 +104,6 @@ console.log(arr25);
 //example 1
 const arr26 = [1,2,3,4,5]
 const arr27 = arr26.includes(2)
-
 console.log(arr27);
 
 //example 2
@@ -131,13 +118,11 @@ console.log(arr29);
 //example 1
 const arr30 = [1,2,3,4,5]
 const arr31 = arr30.indexOf(3)
-
 console.log(arr31);
 
 //example 2
 const arr32 = ['lukhman','naja','reja','nahana']
 const arr33 = arr32.indexOf('naja')
-
 console.log(arr33);
 
 ////////////////////////////////////////////////
@@ -147,13 +132,11 @@ console.log(arr33);
 //example 1
 const arr34  = [1,2,3,4,5]
 const arr35 = arr34.join()
-
 console.log(arr35);
 
 //example 2
 const arr36 = ['Hello Kelvin','How are you?']
 const arr37 = arr36.join(', ')
-
 console.log(arr37);
 
 //////////////////////////////////////////////
@@ -163,13 +146,11 @@ console.log(arr37);
 //example 1
 const arr38 = [1,2,3,4,5,1,2,3,4,5]
 const arr39 = arr38.lastIndexOf(3)
-
 console.log(arr39);
 
 //example 2 
 const arr40 = ['siraj','lukhman','ashiq','siraj','irfan','ashiq']
 const arr41 = arr40.lastIndexOf('kelvin')
-
 console.log(arr41);
 
 /////////////////////////////////////////////
@@ -179,7 +160,6 @@ console.log(arr41);
 //example 1
 const arr42 = [1,2,3,4,5]
 const arr43 = arr42.pop(5)
-
 console.log(arr42);
 
 /////////////////////////////////////////////
@@ -189,7 +169,6 @@ console.log(arr42);
 //example 1
 const arr44 = [1,2,3,4]
 const arr45 = arr44.push(5)
-
 console.log(arr44);
 
 //////////////////////////////////////////////
@@ -199,14 +178,12 @@ console.log(arr44);
 //example 1
 const arr46 = [5,4,3,2,1]
 const arr47 = arr46.reverse()
-
 console.log(arr47);
 
 //example 2
 const arr48 =['world','Hello']
 const arr49 = arr48.reverse()
 const arr50 = arr48.join(' ')
-
 console.log(arr50);
 
 //////////////////////////////////////////////
@@ -216,7 +193,6 @@ console.log(arr50);
 //example 1
 const arr51 = [2,3,4,5]
 arr51.unshift(1)
-
 console.log(arr51);
 
 //////////////////////////////////////////////
@@ -226,7 +202,6 @@ console.log(arr51);
 //example 1
 const arr52 = [10,1,2,3,4,5]
 arr52.shift(10)
-
 console.log(arr52);
 
 ////////////////////////////////////////////
@@ -236,7 +211,6 @@ console.log(arr52);
 //example 1
 const arrFruits = ['Apple','Orange','Tree','Dog']
 const arrRemoveOthers = arrFruits.slice(0,2)
-
 console.log(arrRemoveOthers);
 
 /////////////////////////////////////////////
@@ -250,13 +224,11 @@ const check = arr53.some((arr53)=>{
 })
 
 console.log(check);
-
 //example 2
 const arr54 = [1,2,3,4,5]
 const check2 = arr54.some((arr54)=>{
     return arr54>10
 })
-
 console.log(check2);
 
 //////////////////////////////////////////////
@@ -268,7 +240,6 @@ const arr55 = [10,11,12,13,14,15]
 const check3 = arr55.every((arr55)=>{
     return arr55>11
 })
-
 console.log(check3);
 
 //example 2
@@ -276,7 +247,6 @@ const arr56 = [10,11,12,13,14,15]
 const check4 = arr56.every((arr56)=>{
     return arr56>=10
 })
-
 console.log(check4);
 
 /////////////////////////////////////////////////
