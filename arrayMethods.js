@@ -253,5 +253,54 @@ console.log(check4);
 
 //topic-19 sort
 
-//example 1
+//example 1 
+const arr57 = [5,3,8,1,2]
+const sortNumbers = arr57.sort()
+console.log(sortNumbers);
 
+///////////////////////////////////////////////
+
+//topic-20 splice
+
+//example 1
+const arr58 = [1,2,3]
+arr58.splice(3,0,4,5)
+console.log(arr58);
+
+//example 2
+const arr59 = [1,2,3,4,5,6,7]
+arr59.splice(5,5)
+console.log(arr59);
+
+//////////////////////////////////////////////
+
+//topic-21 toString
+
+//example 1
+const arr60 =[1,2,3,4,5]
+const arr61 = arr60.toString()
+console.log(arr61)
+
+///////////////////////////////////////////////
+
+//topic-22 filter
+
+//example 1
+const arr62 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+const findOddNumbers = arr62.filter((data)=>{
+    if (data%2!==0){
+        return data
+    }
+})
+console.log(findOddNumbers);
+
+//example 2
+const arr63 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+const findEven =arr62.filter((data)=>{
+    if (data%2==0){
+        return data
+    }
+})
+console.log(findEven)
+
+///////////////////////////////////////////////
