@@ -349,4 +349,9 @@ const arr71 = arr70.forEach((number)=>{
     console.log(number);
 })
 
+//example 2
+const arrFruitss = ['Banana','Apple','Jackfruit','Grape','Pineapple']
+arrFruitss.forEach((fruit,index)=>{
+    console.log(index+ ': ' + fruit);
+})
 
