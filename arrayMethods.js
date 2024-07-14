@@ -272,7 +272,7 @@ const arr59 = [1,2,3,4,5,6,7]
 arr59.splice(5,5)
 console.log(arr59);
 
-//////////////////////////////////////////////
+///////////////////////////////////////////////
 
 //topic-21 toString
 
@@ -304,3 +304,49 @@ const findEven =arr62.filter((data)=>{
 console.log(findEven)
 
 ///////////////////////////////////////////////
+
+//topic-23 reduce 
+
+//example 1
+const arr64 = [1,2,3,4,5,6,7,8,9,10]
+const sumOfarr64 = arr64.reduce((acc,num)=>{
+    return acc+num
+})
+console.log(sumOfarr64);
+
+//example 2
+const arr65 = [1,2,3,4,5,6,7,8,9,10]
+const multiOfarr65 = arr65.reduce((acc,num)=>{
+    return acc*num
+})
+console.log(multiOfarr65);
+
+///////////////////////////////////////////////
+
+//topic-24 map 
+
+//example 1
+const arr66 = [1,2,3,4,5,6,7,8,9,10]
+const arr67 = arr66.map((element)=>{
+    return element*10
+})
+console.log(arr67);
+
+//example 2 
+const arr68 = [1,2,3,4,5,6,7,8,9]
+const arr69 = arr68.map((element)=>{
+    return element+1
+})
+console.log(arr69);
+
+//////////////////////////////////////////////
+
+//topic- 24 forEach
+
+//example 1
+const arr70 = [1,2,3,4,5,6,7,8,9,10]
+const arr71 = arr70.forEach((number)=>{
+    console.log(number);
+})
+
+
