@@ -1,4 +1,15 @@
-//topic-1 concat
+// Javascript Array Methods
+
+// Arrays in JavaScript are used to store multiple values in a single variable.
+// They are a powerful and flexible way to work with collections of data. 
+// JavaScript provides many built-in methods to help you manipulate arrays easily. 
+// These methods allow you to perform various operations like adding, removing, finding, and sorting elements. 
+// In this note, I'll briefly explain some of the most commonly used array methods. 
+// Understanding these methods will help you manage and process data more effectively in your JavaScript programs.                                                                                                                                                                                     
+
+
+// topic-1 concat
+// Combines two or more arrays and returns a new array.
 
 // example 1
 const arr1 = [1,2,3,4,5]
@@ -17,7 +28,8 @@ console.log(concatExample2);
 
 ///////////////////////////////////////////////////////////
 
-//topic-2 every
+// topic-2 every
+// Tests whether all elements in the array pass the provided function's test, returning a boolean.
 
 //example 1
 const arr6 = [1,2,3,4,5,6,7,8,9,10]
@@ -36,6 +48,7 @@ console.log(arr9);
 ///////////////////////////////////////////////////////////
 
 // topic-3 fill
+// Changes all elements in an array to a static value from a start index to an end index.
 
 //example 1
 const arr10 = [1,2,3]
@@ -49,7 +62,8 @@ console.log(arr13);
 
 ////////////////////////////////////////////////////////
 
-//topic-4 find
+// topic-4 find
+// Returns the value of the first element in the array that satisfies the provided function's test.
 
 //example 1
 const arr14 = [5,8,12,15,20]
@@ -68,6 +82,7 @@ console.log(arr17);
 ///////////////////////////////////////////////////////
 
 // topic-5 findIndex
+// Returns the index of the first element in the array that satisfies the provided function's test.
 
 //example 1
 const arr18 = [5,8,12,15,20]
@@ -86,6 +101,7 @@ console.log(arr21);
 ////////////////////////////////////////////////////
 
 // topic-6 flat
+// Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 
 //example 1
 const arr22 = [1,[2,3],[4,[5,6]]];
@@ -99,7 +115,8 @@ console.log(arr25);
 
 /////////////////////////////////////////////////
 
-//topic-7 includes
+// topic-7 includes
+// Determines whether an array includes a certain value among its entries, returning a boolean.
 
 //example 1
 const arr26 = [1,2,3,4,5]
@@ -113,7 +130,8 @@ console.log(arr29);
 
 ////////////////////////////////////////////////
 
-//topic-8 indexOf
+// topic-8 indexOf
+// Returns the first index at which a given element can be found in the array, or -1 if it is not present.
 
 //example 1
 const arr30 = [1,2,3,4,5]
@@ -128,6 +146,7 @@ console.log(arr33);
 ////////////////////////////////////////////////
 
 //topic-9 join
+// Joins all elements of an array into a string and returns this string.
 
 //example 1
 const arr34  = [1,2,3,4,5]
@@ -142,6 +161,7 @@ console.log(arr37);
 //////////////////////////////////////////////
 
 // topic-10 lastIndexOf
+// Returns the last index at which a given element can be found in the array, or -1 if it is not present.
 
 //example 1
 const arr38 = [1,2,3,4,5,1,2,3,4,5]
@@ -155,7 +175,8 @@ console.log(arr41);
 
 /////////////////////////////////////////////
 
-//topic-11 pop
+// topic-11 pop
+// Removes the last element from an array and returns that element.
 
 //example 1
 const arr42 = [1,2,3,4,5]
@@ -164,7 +185,8 @@ console.log(arr42);
 
 /////////////////////////////////////////////
 
-//topic-12 push
+// topic-12 push
+// Adds one or more elements to the end of an array and returns the new length of the array.
 
 //example 1
 const arr44 = [1,2,3,4]
@@ -173,7 +195,8 @@ console.log(arr44);
 
 //////////////////////////////////////////////
 
-//topic-13 reverse
+// topic-13 reverse
+// Reverses the order of the elements in an array.
 
 //example 1
 const arr46 = [5,4,3,2,1]
@@ -188,7 +211,8 @@ console.log(arr50);
 
 //////////////////////////////////////////////
 
-//topic-14 unshift 
+// topic-14 unshift
+// Adds one or more elements to the beginning of an array and returns the new length of the array.
 
 //example 1
 const arr51 = [2,3,4,5]
@@ -197,7 +221,8 @@ console.log(arr51);
 
 //////////////////////////////////////////////
 
-//topic-15 shift 
+// topic-15 shift
+// Removes the first element from an array and returns that element.
 
 //example 1
 const arr52 = [10,1,2,3,4,5]
@@ -206,7 +231,8 @@ console.log(arr52);
 
 ////////////////////////////////////////////
 
-//topic-16 slice
+// topic-16 slice
+// Returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included).
 
 //example 1
 const arrFruits = ['Apple','Orange','Tree','Dog']
@@ -215,7 +241,8 @@ console.log(arrRemoveOthers);
 
 /////////////////////////////////////////////
 
-//topic-17 some
+// topic-17 some
+// Tests whether at least one element in the array passes the provided function's test, returning a boolean.
 
 //example 1
 const arr53 = [1,5,8,13,14,15]
@@ -233,25 +260,8 @@ console.log(check2);
 
 //////////////////////////////////////////////
 
-//topic-18 every
-
-//example 1
-const arr55 = [10,11,12,13,14,15]
-const check3 = arr55.every((arr55)=>{
-    return arr55>11
-})
-console.log(check3);
-
-//example 2
-const arr56 = [10,11,12,13,14,15]
-const check4 = arr56.every((arr56)=>{
-    return arr56>=10
-})
-console.log(check4);
-
-/////////////////////////////////////////////////
-
-//topic-19 sort
+// topic-18 sort
+// Sorts the elements of an array in place and returns the array.
 
 //example 1 
 const arr57 = [5,3,8,1,2]
@@ -260,7 +270,8 @@ console.log(sortNumbers);
 
 ///////////////////////////////////////////////
 
-//topic-20 splice
+// topic-19 splice
+// Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 
 //example 1
 const arr58 = [1,2,3]
@@ -274,7 +285,8 @@ console.log(arr59);
 
 ///////////////////////////////////////////////
 
-//topic-21 toString
+// topic-20 toString
+// Returns a string representing the array and its elements.
 
 //example 1
 const arr60 =[1,2,3,4,5]
@@ -283,7 +295,8 @@ console.log(arr61)
 
 ///////////////////////////////////////////////
 
-//topic-22 filter
+// topic-21 filter
+// Creates a new array with all elements that pass the test implemented by the provided function.
 
 //example 1
 const arr62 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
@@ -305,7 +318,8 @@ console.log(findEven)
 
 ///////////////////////////////////////////////
 
-//topic-23 reduce 
+// topic-22 reduce 
+// Executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
 
 //example 1
 const arr64 = [1,2,3,4,5,6,7,8,9,10]
@@ -323,7 +337,8 @@ console.log(multiOfarr65);
 
 ///////////////////////////////////////////////
 
-//topic-24 map 
+// topic-23 map 
+// Creates a new array with the results of calling a provided function on every element in the calling array.
 
 //example 1
 const arr66 = [1,2,3,4,5,6,7,8,9,10]
@@ -341,8 +356,8 @@ console.log(arr69);
 
 //////////////////////////////////////////////
 
-//topic- 24 forEach
-
+// topic- 24 forEach
+// Executes a provided function once for each array element.
 //example 1
 const arr70 = [1,2,3,4,5,6,7,8,9,10]
 const arr71 = arr70.forEach((number)=>{
