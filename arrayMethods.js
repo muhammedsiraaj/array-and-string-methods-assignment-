@@ -3,9 +3,8 @@
 // Arrays in JavaScript are used to store multiple values in a single variable.
 // They are a powerful and flexible way to work with collections of data. 
 // JavaScript provides many built-in methods to help you manipulate arrays easily. 
-// These methods allow you to perform various operations like adding, removing, finding, and sorting elements. 
-// In this note, I'll briefly explain some of the most commonly used array methods. 
-// Understanding these methods will help you manage and process data more effectively in your JavaScript programs.                                                                                                                                                                                     
+// These methods allow to perform various operations like adding, removing, finding, and sorting elements. 
+// In this note, I'll briefly explain some of the most commonly used array methods.                                                                                                                                                                                     
 
 
 // topic-1 concat
